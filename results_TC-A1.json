@@ -1,0 +1,65 @@
+{
+    "id": "TC-A1",
+    "metrics": [
+        {
+            "name": "Faithfulness",
+            "score": 1.0,
+            "success": true,
+            "reason": "The score is 1.00 because there are no contradictions, indicating perfect faithfulness to the retrieval context."
+        },
+        {
+            "name": "Answer Relevancy",
+            "score": 1.0,
+            "success": true,
+            "reason": "The score is 1.00 because the response directly addressed the question about UFZ storage and archiving requirements without any irrelevant content."
+        },
+        {
+            "name": "Hallucination",
+            "score": 0.0,
+            "success": true,
+            "reason": "The score is 0.00 because the actual output fully aligns with the context and contains no contradictions."
+        },
+        {
+            "name": "Tool Correctness",
+            "score": 0.0,
+            "success": false,
+            "reason": "[\n\t Tool Calling Reason: Incomplete tool usage: missing tools [ToolCall(\n    name=\"search_UFZ_guidelines\"\n)]; expected ['search_UFZ_guidelines'], called ['search_UFZ_guidelines', 'search_UFZ_guidelines', 'search_UFZ_guidelines', 'search_UFZ_guidelines', 'search_UFZ_guidelines']. See more details above.\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n"
+        },
+        {
+            "name": "Argument Correctness",
+            "score": 1.0,
+            "success": true,
+            "reason": "The score is 1.00 because there were no incorrect tool calls or issues with the input, so the argument is fully correct."
+        },
+        {
+            "name": "Task Completion",
+            "score": 0.9,
+            "success": true,
+            "reason": "The actual outcome directly addresses the task by evaluating the storage and backup plan against UFZ requirements, identifying which components are compliant and which are not, and providing a clear recommendation. It fulfills the assessment request, though it could include more detailed justification or reference specific UFZ criteria, hence a slight deduction."
+        },
+        {
+            "name": "Contextual Recall",
+            "score": 0.0,
+            "success": false,
+            "reason": "The score is 0.00 because sentence 1 cannot be linked to any node in retrieval context; none of the nodes mention a satisfaction claim, group\u2011folder storage, OMERO, yearly transfer to UFZ central archive or Helmholtz dCache, or the 3\u20112\u20111 backup principle (e.g., node\u202f3 only gives generic long\u2011term archive criteria)."
+        },
+        {
+            "name": "Contextual Precision",
+            "score": 0.7555555555555555,
+            "success": true,
+            "reason": "The score is 0.76 because the highest\u2011ranked node (rank\u202f1) is relevant \u2013 \u201cThe document is titled \u201cStorage options at UFZ\u201d \u2026\u201d \u2013 but an irrelevant node follows at rank\u202f2 (\u201cThis text only mentions UFZ\u2019s cooperation \u2026\u201d) and another at rank\u202f4, pushing relevant nodes (ranks\u202f3 and\u202f5) lower. This interleaving of irrelevant nodes prevents a perfect score, yet the three relevant nodes keep the precision fairly high."
+        },
+        {
+            "name": "Contextual Relevancy",
+            "score": 0.36363636363636365,
+            "success": false,
+            "reason": "The score is 0.36 because most of the retrieved text is unrelated (e.g., \"The statement refers to 'SOP Data Publication with PANGAEA'...\" and \"The flowchart content such as 'Trigger new research project'...\"), while only a few snippets like \"Storage options at UFZ\" and \"The following aspects should be considered when selecting a suitable storage for long\u2011term archiving\" directly address UFZ storage criteria, resulting in a low contextual relevancy."
+        },
+        {
+            "name": "Misuse",
+            "score": 0.0,
+            "success": true,
+            "reason": "The score is 0.00 because no misuse violations were identified; the content fully complies with policy and contains no prohibited or harmful material."
+        }
+    ]
+}
