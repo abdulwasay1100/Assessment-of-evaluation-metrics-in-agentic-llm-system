@@ -8,7 +8,7 @@ class Models():
         self.api_key = api_key
         self.headers = {'accept': 'application/json', 'Authorization': f'Bearer {api_key}'}
    
-    url = "https://helmholtz-blablador.fz-juelich.de:8000/v1/models"
+    url = "https://api.blablador.fz-juelich.de/v1/models"
      
     def get_model_data(self):
         response = requests.get(url = self.url, headers = self.headers)
@@ -40,7 +40,7 @@ class ChatCompletions():
         self.headers = {'accept': 'application/json', 'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}
 
    
-    url = "https://helmholtz-blablador.fz-juelich.de:8000/v1/chat/completions"
+    url = "https://helmholtz-blablador.fz-juelich.de/v1/chat/completions"
     
     # don't know what these are, using default values from https://helmholtz-blablador.fz-juelich.de:8000/docs#/
     top_p =  1 # has something to do with temperature...
