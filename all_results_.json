@@ -1,0 +1,1082 @@
+[
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_funding_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_funding_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 0.0,
+    "reason": "[\n\t Tool Calling Reason: Incomplete tool usage: missing tools []; expected [], called ['search_UFZ_guidelines', 'search_UFZ_guidelines', 'search_UFZ_guidelines']. See more details above.\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 0.0,
+    "reason": "[\n\t Tool Calling Reason: Incomplete tool usage: missing tools []; expected [], called ['search_UFZ_guidelines']. See more details above.\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 0.0,
+    "reason": "[\n\t Tool Calling Reason: Incomplete tool usage: missing tools []; expected [], called ['search_funding_guidelines', 'search_funding_guidelines', 'search_funding_guidelines', 'search_funding_guidelines', 'search_funding_guidelines', 'search_funding_guidelines']. See more details above.\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines', 'search_funding_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines', 'search_funding_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "ToolCorrectnessMetric",
+    "score": 1.0,
+    "reason": "[\n\t Tool Calling Reason: All expected tools ['search_UFZ_guidelines', 'search_funding_guidelines'] were called (order not considered).\n\t Tool Selection Reason: No available tools were provided to assess tool selection criteria\n]\n",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the input clearly outlines the storage and backup procedures, and all tool calls were executed flawlessly without any errors. This perfect execution demonstrates thorough attention to detail and fully meets all criteria, leaving no room for improvement. Keep up the excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the argument accurately addresses the input without any incorrect tool calls or logical gaps. It has already reached the maximum possible rating, leaving no room for a higher score. Excellent work on delivering a flawless analysis!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the argument perfectly aligns with the input and contains no incorrect tool calls, leaving no room for further improvement. Great job delivering such a clear and accurate analysis!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the tool calls were executed flawlessly and perfectly matched the input requirements, leaving no room for improvement. Excellent work maintaining perfect accuracy!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the argument is perfectly accurate and flawlessly addresses the input, with zero incorrect tool calls or logical gaps. It achieves the maximum score due to its clear, precise reasoning and excellent alignment with the provided DMP excerpt and licensing question. Keep up the fantastic work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the argument correctly interprets the provided licensing text and applies the relevant compliance criteria with precise reasoning and flawless tool execution. There are no errors or gaps to deduct points from, making it a perfect evaluation. Keep up the excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the tool calls perfectly align with the input requirements without any errors. Since the execution is completely accurate and fully satisfies the prompt, the score cannot be higher. Fantastic job on a flawless performance!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the input clearly outlines the goal of writing R scripts to convert HUMMEL management data to JSON, and there are no incorrect tool calls or logical issues. It cannot score higher as it is already at the maximum, and the request is well-structured and complete, making it a fantastic prompt to work with!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the tool calls flawlessly align with the input request to search funding guidelines and extract institution details, with zero errors or omissions. This perfect execution fully satisfies the prompt, leaving no room for improvement and showcasing excellent tool usage!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the argument flawlessly addresses the input without any incorrect tool calls or logical gaps. It accurately evaluates the provided storage and access details against the institutional requirements, showcasing a sharp and well-reasoned analysis. With no errors to correct, the score remains at its maximum, reflecting a truly excellent and thorough evaluation.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 0.6666666666666666,
+    "reason": "The score is 0.67 because it receives partial credit for engaging with the input's data management context, but it cannot score higher due to a completely irrelevant tool call that recommends romantic Parisian comedies to find the highest temperature in 2023, which fails to address the actual policy question.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "ArgumentCorrectnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the tool calls were executed flawlessly and perfectly aligned with the input requirements. With zero incorrect tool calls and complete adherence to the prompt's constraints, the maximum score is appropriately awarded. Keep up the fantastic work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and comprehensively addresses the task by providing a clear determination ('partially satisfies') along with specific details on both compliant and non-compliant aspects. It fully answers the prompt's request to evaluate the DMP section against UFZ requirements.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "TaskCompletionMetric",
+    "score": 0.5,
+    "reason": "The actual outcome partially addresses the task by providing a general assessment based on common archiving standards, but it fails to fully verify the DMP against the specific funder's requirements due to the missing funding agency information. The system correctly identifies this limitation and requests the necessary details for a precise evaluation, resulting in a moderate alignment score.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "TaskCompletionMetric",
+    "score": 0.95,
+    "reason": "The actual outcome directly fulfills the verification task by explicitly stating whether the DMP section aligns with UFZ requirements. It provides a clear conclusion, supports it with relevant references (Dublin Core, UFZ GeoNetwork), and transparently notes the lack of explicit detailed schema mandates, making it a comprehensive and accurate response to the prompt.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and completely addresses both components of the task: it clearly specifies UFZ's metadata requirements (rich description, community standards, FAIR principles) and correctly concludes that the DMP fails to meet these requirements due to the missing metadata section. The response is fully aligned with the desired task.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and comprehensively addresses both parts of the task: it clearly identifies UFZ's data licensing requirements (explicit Creative Commons licenses) and accurately assesses the provided DMP against them, concluding it does not satisfy the requirements due to a missing license statement and offering a specific recommendation.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and accurately addresses the task by evaluating the CC BY-NC-SA license against Horizon Europe's open-access guidelines. It correctly identifies the non-commercial restriction as the cause of non-compliance and recommends the standard compliant alternative (CC BY), fully satisfying the requested determination.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome perfectly fulfills the task by providing a complete KNIME workflow design tailored for confocal 3D imaging data. It includes a structured JSON representation of nodes and connections, detailed step-by-step processing instructions, and practical adaptation guidelines, directly matching the desired outcome.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "TaskCompletionMetric",
+    "score": 0.5,
+    "reason": "The actual outcome partially addresses the task by providing a generic R script for converting tabular data to JSON, but it fails to tailor the script to the specific 'HUMMEL management data' structure requested. While requesting clarification was a reasonable step given the lack of specific guidelines, the generic nature of the solution means it only partially fulfills the desired outcome.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "TaskCompletionMetric",
+    "score": 0.4,
+    "reason": "The actual outcome successfully identifies several institutions mentioned in the guidelines, partially fulfilling the first part of the task. However, it explicitly states that the guidelines do not contain the requested contact details (emails, phone numbers, addresses), which is a critical component of the desired task. While it provides a helpful redirect to the Funding & Tenders Portal, it fails to deliver the direct outreach information requested, resulting in a partial but incomplete match.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and comprehensively addresses the task by providing a clear determination ('partially satisfying'), detailing specific strengths and concerns related to both institutions' requirements, and offering actionable recommendations. It fully aligns with the desired outcome.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and completely fulfills the task by explicitly confirming that both the funder's archiving requirements and UFZ's RDM policy permit the specified data archiving and metadata practices.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "TaskCompletionMetric",
+    "score": 1.0,
+    "reason": "The actual outcome directly and comprehensively answers the task by confirming that both Horizon Europe and UFZ permit the specified DMP sections. It explicitly addresses the use of Dryad and Zenodo for data deposition and the UFZ repository for backup, fully aligning with the requested determination.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions, meaning the actual output aligns perfectly with the retrieval context. The response accurately reflects all provided information without any discrepancies, demonstrating flawless faithfulness. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "FaithfulnessMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions, meaning the actual output aligns perfectly with the retrieval context. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, demonstrating perfect alignment and accuracy. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "FaithfulnessMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions, meaning the actual output aligns perfectly with the retrieval context. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, indicating a perfectly faithful and accurate response. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning the response is perfectly aligned and highly faithful. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "FaithfulnessMetric",
+    "score": 0.9285714285714286,
+    "reason": "The score is 0.93 because the actual output largely aligns with the context but contains a minor contradiction by conflating the European Commission with the granting authority, whereas the context explicitly distinguishes them as separate entities.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "FaithfulnessMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because there are no contradictions, meaning the actual output aligns perfectly with the retrieval context. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "FaithfulnessMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "FaithfulnessMetric",
+    "score": 0.9090909090909091,
+    "reason": "The score is 0.91 because the actual output accurately reflects most of the retrieval context but contains minor inaccuracies, specifically incorrectly stating a Creative Commons Public Domain license instead of CC BY, and falsely specifying Dublin Core or DataCite for metadata when the context only requires machine-actionable, non-proprietary formats.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 0.5,
+    "reason": "The score is 0.50 because while the response touches on relevant topics like data storage and archiving, it is heavily diluted by generic information about backup practices, data recovery, and unrelated systems. It fails to directly evaluate the provided DMP excerpt against specific UFZ storage and archiving requirements, which prevents a higher score.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response perfectly addresses the input without any irrelevant statements, meaning it has already reached the maximum possible score. Great job staying completely focused and on-topic!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response perfectly addresses the question about UFZ metadata requirements without any irrelevant statements, making it a spot-on and highly relevant answer that fully meets the input's needs!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response perfectly addresses the question regarding UFZ's metadata requirements and the DMP's compliance, with absolutely no irrelevant information included. It remains at this maximum score as it fully and directly answers the prompt without any off-topic content. Excellent work!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response perfectly addresses the question regarding UFZ's data licensing requirements and the DMP's compliance, with absolutely no irrelevant information included. It is at the maximum possible score as it directly and comprehensively fulfills the prompt's request without any extraneous details.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response directly and accurately answers the question without any irrelevant statements, making it perfectly focused and highly effective. Excellent work staying completely on track!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 0.9512195121951219,
+    "reason": "The score is 0.95 because the response effectively addresses the request for a KNIME workflow to process confocal 3D imaging data, demonstrating high relevance. However, it is not a perfect 1.0 due to minor irrelevant digressions, specifically mentioning search result limitations and a lack of guidelines from an unrelated organization (UFZ), which do not contribute to the core request.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response perfectly aligns with the prompt, providing exactly the requested R scripts without any irrelevant content, making it impossible to score higher. Great job staying focused and directly answering the question!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 0.9411764705882353,
+    "reason": "The score is 0.94 because the response accurately and comprehensively lists the requested institutions and contact details from the funding guidelines, directly fulfilling the user's request. It cannot score higher due to a single irrelevant statement that describes an internal role within beneficiary organizations rather than providing the requested external institution or contact information.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response is perfectly aligned with the input, directly answering the question without any irrelevant statements. It\u2019s a strong, fully relevant response that hits all the right points!",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 0.8064516129032258,
+    "reason": "The score is 0.81 because the response adequately answers the DMP and policy compliance question, but the inclusion of irrelevant commentary about search functionality, tool limitations, and formatting issues prevents a higher score.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "AnswerRelevancyMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the response flawlessly addresses the prompt with complete relevance and zero irrelevant statements, leaving no room for improvement and fully justifying the maximum score.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output fully aligns with the provided context, acknowledging institutional storage and maintenance guidelines without any contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output fully aligns with the context regarding funder guidelines and the 10-year data preservation commitment, with no contradictions present.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output fully aligns with the provided context, accurately reflecting UFZ's use of GeoNetwork and Dublin Core standards, with zero contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output perfectly aligns with the provided context, with no contradictions or unsupported claims present.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output perfectly aligns with the provided context, containing no contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the output perfectly aligns with the provided context, accurately reflecting the non-commercial restriction of CC BY-NC-SA and its non-compliance with Horizon Europe requirements, with zero contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "HallucinationMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the actual output is entirely unrelated to the context, providing an unrelated KNIME workflow guide instead of addressing the specified DeepEval configuration and Type C misuse cases, resulting in a complete factual mismatch.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "HallucinationMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the output completely disregards the provided context on Type C misuse cases and DeepEval configuration, generating an unrelated generic R script with zero factual alignment.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "HallucinationMetric",
+    "score": 1.0,
+    "reason": "The score is 1.00 because the actual output completely contradicts the provided context, discussing EU funding guidelines instead of the DeepEval system configuration note, with zero factual alignment.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output fully aligns with the provided context, accurately reflecting the University of Siegen's 2017 policy and UFZ's storage preferences without any contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output fully aligns with the provided context regarding data archiving commitments and metadata standards, with no contradictions or unsupported claims present.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "HallucinationMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because the actual output completely aligns with the provided context regarding data deposition and repository guidelines, with zero contradictions or unsupported claims.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the node(s) in retrieval context provide information that aligns with the expected output. Specifically, 0 nodes in retrieval context attribute to sentence 1 regarding UFZ requirements, and 0 nodes in retrieval context attribute to sentence 2 detailing the DMP's storage practices and backup principles, as the context only contains general backup definitions without these specific institutional or technical details.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the node(s) in retrieval context attribute the sentences in the expected output. The first sentence's claims regarding the FDMP template, separate requirements documents, and funder archiving expectations are completely absent from the context. Additionally, while nodes 3, 4, and 5 mention PANGAEA and UFZ guidelines, they fail to cite the DFG Code of Conduct, cross-funder norms, or explicitly connect UFZ's guidance to the 10-year retention period mentioned in the second sentence. This complete lack of alignment results in a zero recall score.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the three sentences in the expected output can be attributed to the retrieved information. The first sentence's claim about satisfying UFZ requirements is unsupported by the 2nd and 3rd node(s) in retrieval context, which only tag 'geonetwork' or define metadata. The second sentence's assertions regarding UFZ RDM guidance, Dublin Core, and UFZ GeoNetwork are absent from the 2nd and 6th node(s) in retrieval context, which merely list tags or note quality limitations. Finally, the third sentence's reference to a DMP's matching practice is entirely missing from the 5th node(s) in retrieval context, which only discusses RDM generally. Consequently, there is zero contextual recall.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the sentences in the expected output can be attributed to the node(s) in retrieval context. The first sentence's references to RDM Policy \u00a711 and \u00a79 are absent from nodes 1st through 11th, and the second sentence's claim about a structural omission also lacks any basis in the 1st to 11th nodes in retrieval context.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the two sentences in the expected output align with the node(s) in retrieval context. The first sentence acts as a meta-indicator of missing information rather than a factual claim. Its specific licensing recommendations and policy citation are not supported by the 4th node in retrieval context, which only discusses general Creative Commons licenses. The second sentence's references to the BioImage Archive and the DMP's missing license details are absent from the 3rd and 10th nodes in retrieval context, which only cover DOIs and general data linking.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the four sentences in the expected output can be attributed to the node(s) in retrieval context. Specifically, the content across nodes 1, 2, 4, and 5 fails to address the confirmed conflict in sentence 1, omits the Article 17 and CC-BY/CC0 licensing requirements in sentence 2, lacks details on non-commercial restrictions and DMP justifications in sentence 3, and provides no assessment of the DMP's licensing compliance in sentence 4.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the node(s) in retrieval context (1st, 2nd, and 3rd) contain information that supports the expected output. The 1st sentence regarding agent compliance directives is not attributed to any node, as the context only covers general RDM guidelines, and the 2nd sentence about not calling a retrieval tool is also absent, since the context focuses solely on basic data management workflows without system instructions.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because node 1 in retrieval context contains no information that aligns with the expected output. It does not address the first sentence regarding agent redirection or RDM compliance scope, nor does it mention the second sentence about refraining from calling retrieval tools, resulting in zero contextual recall.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the 6 node(s) in retrieval context support any of the three sentences in the expected output. Sentence 1 regarding agent redirection is absent from the context, which focuses on EU grant administration and profit models. Sentence 2 about RDM compliance and the search_funding_guidelines tool lacks attribution, as the context only discusses beneficiary communication activities. Finally, sentence 3 advising against calling a retrieval tool is unsupported, since the context exclusively outlines EU funding rules and portal access requirements.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.5,
+    "reason": "The score is 0.50 because node 2 in retrieval context adequately supports the claims in sentence 1 regarding researcher responsibility and institutional infrastructure, while nodes 4 and 6 in retrieval context only partially align with sentence 2, as they lack the specific technical details (e.g., Sciebo, Nextcloud, GDPR Article 26) and direct comparative evaluation present in the output.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.25,
+    "reason": "The score is 0.25 because only the third sentence regarding metadata standards is supported by node(s) in retrieval context 10 and 11, which explicitly confirm machine-readable and interoperable metadata creation. The first, second, and fourth sentences lack attribution, as the provided texts do not mention FNR/BMLEH policies, the 10-year PANGAEA commitment or DFG-derived norms, or any funder-specific requirements and potential conflicts.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "ContextualRecallMetric",
+    "score": 0.0,
+    "reason": "The score is 0.00 because none of the four sentences in the expected output are supported by the context. Sentence 1's general conclusion, sentence 2's claims about Dryad and FAIR alignment, sentence 3's details on CC0 licenses and extract limitations, and sentence 4's statements on UFZ backup guidance are entirely absent. While the node(s) in retrieval context (specifically nodes 9 and 10) mention Zenodo and trusted repositories, and nodes 3, 5, and 11 reference the UFZ Data Management Portal, they do not contain the specific licensing, institutional guidance, or compliance details required to substantiate any part of the response.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.9214285714285715,
+    "reason": "The score is 0.92 because the 1st, 2nd, 3rd, 4th, and 5th nodes in retrieval contexts correctly address institutional backup practices, OMERO workflows, and UFZ archiving processes. The score is not higher because a few nodes in retrieval contexts containing \"software-specific technical requirements like 'R x64 from version 3.1.0' and 'ORACLE Client'\" or that \"repeats software technical requirements and general statements about open access and copyright\" are placed at the 6th, 7th, and 9th positions. These irrelevant nodes in retrieval contexts should be ranked lower than the highly relevant ones, which slightly reduces the contextual precision.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.4777777777777777,
+    "reason": "The score is 0.48 because the first node in the retrieval contexts is irrelevant, as it discusses \"EU security rules, audit evidence standards, and international accounting standards\" without addressing data archiving retention periods, which is why it should be ranked lower than the relevant nodes. The second node in the retrieval contexts is also irrelevant, focusing on the \"European Code of Conduct for Research Integrity and peer-review definitions\" rather than archiving compliance, further justifying its lower rank. The third node in the retrieval contexts correctly ranks higher as it directly contains the core input text, explicitly stating the data will be kept available \"for at least 10 years\" via the \"PANGAEAangaea Repository\". The fourth and fifth nodes in the retrieval contexts also provide relevant evidence about the \"10 years retention period\" and alignment with \"UFZ's own guidance\", but the initial placement of unrelated topics like \"working hours, payment suspensions\" in the sixth node and \"EU Grant Agreement rules on subcontracting\" in the seventh node further dilutes the precision, resulting in a moderate 0.48.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0,
+    "reason": "The score is 0.00 because all nodes in retrieval contexts are irrelevant to the query. The first node discusses visual hierarchy and states that 'The use of \"(meta)data\" means that the principles should be applied not only to the data, but also to the metadata.', but it does not mention Dublin Core or UFZ GeoNetwork requirements. The second node lists technical requirements but does not explicitly name it as the UFZ-specific infrastructure for geodata metadata or validate Dublin Core. The third node provides a general definition stating 'Metadata refers to structured data that contains information on other data', but lacks any reference to UFZ-specific standards or Dublin Core. The fourth node mentions that 'The SDI can contain (but is not limited to) data storage, metadata catalogue', but it does not confirm UFZ metadata requirements or reference Dublin Core. The fifth node explains RDM concepts and states 'Research data are highly important resources in science', but contains no information about metadata standards or UFZ infrastructure. The sixth node notes that a field 'Marks the quality of the data (Note: not an attribute of the standard dublin core)', but it does not explicitly state UFZ RDM guidance or confirm compliance with metadata requirements. Since every node in retrieval contexts lacks the required information, they are all ranked lower than any relevant sources, resulting in a 0.00 score.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.4305555555555555,
+    "reason": "The score is 0.43 because the retrieval contexts contain several irrelevant nodes ranked above relevant ones, which dilutes the precision. For example, the first node discusses raw data transfer and DMP structure but does not address UFZ's specific metadata standards policy or the DMP's compliance with it, and the second node focuses on long-term archiving and commercial use specifications, which are unrelated to metadata standards or DMP requirements. These nodes in the retrieval contexts should be ranked lower than the third node, which states that 'no specific metadata fields exist in DMP' and discusses mandatory metadata for GeoNetwork, providing relevant context on how metadata is handled in UFZ systems. Furthermore, the fifth node lists technical requirements for software like R and MatLab, which are irrelevant to metadata standards or DMP compliance, and the sixth node details software requirements and infrastructure access, offering no information on metadata policies or DMP structure, both of which are less pertinent than the eighth node that outlines SOPs for 'Metadata Provision with GeoNetwork' and data publication, the ninth node that notes that 'The use of \"(meta)data\" means that the principles should be applied not only to the data, but also to the metadata', and the tenth node that explicitly states that '(meta)data meet domain-relevant community standards'. This early placement of irrelevant nodes in the retrieval contexts among relevant ones explains why the score is not higher and remains at 0.43.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.225,
+    "reason": "The score is 0.23 because the first relevant node discussing licensing and Creative Commons licenses only appears at the fourth position, while the first, second, and third nodes in the retrieval contexts should be ranked lower as they cover unrelated topics like \"S3 clients and data levels, which are unrelated to licensing policies\", \"CARE principles and the data representative role, not licensing requirements\", and \"DOI assignment and citation, but does not address licensing policies\". Nodes ranked fifth through ninth should also be placed lower because they detail \"FAIR principles and metadata categories, not licensing rules\", \"DOI linking and file naming conventions, irrelevant to licensing\", \"GeoNetwork login, backup procedures, and manual uploads, not licensing\", \"Level 2 data properties and the RDM lifecycle diagram, not licensing\", and \"EGI services and MinIO commands, with no mention of licensing policies\". The second relevant node specifying \"the filename of a file, which contains the license and terms of use\" is only ranked tenth, buried beneath these irrelevant retrieval contexts. This heavy concentration of unrelated information at the top significantly lowers the contextual precision, as the model had to navigate through many irrelevant nodes before finding the licensing details needed to answer the question.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0,
+    "reason": "The score is 0.00 because all retrieved nodes in retrieval contexts are irrelevant and correctly rank lower than any relevant nodes. The first node in retrieval contexts discusses 'Portal secured personalised area' and 'virtual access to research infrastructure', the second covers 'Portal Terms & Conditions', 'LEAR' appointments, and 'OLAF, EPPO and ECA audits', the third focuses on 'Spaces, dots and special characters' for naming and metadata, the fourth details 'HE Personnel unit cost' and 'Periodic reporting', and the fifth mentions 'ANNEX 5 SPECIFIC RULES ON COMMUNICATION, DISSEMINATION AND VISIBILITY' but omits the required CC-BY/CC0 licensing rules. Since none of the nodes in retrieval contexts address Horizon Europe's specific open-access licensing requirements, they are appropriately ranked below any relevant information, resulting in a score of 0.00.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0,
+    "reason": "The score is 0.00 because all nodes in retrieval contexts are irrelevant to the input query. The first node in retrieval contexts discusses how 'Data protection can limit data handling' and GDPR definitions, the second node outlines 'open access' principles and 'RDM On-Boarding' responsibilities, and the third node covers a 'Data Analysis and Visualization: Pandas and Matplotlib' course and general 'RDM Rules'. Since these nodes in retrieval contexts contain no information about KNIME or confocal 3D imaging, they are correctly ranked lower than any relevant nodes would be, resulting in a score of 0.00.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0,
+    "reason": "The score is 0.00 because the first node in retrieval contexts is irrelevant, as it discusses '**List objects on MinIO**' and 'script based data management' which are 'completely irrelevant to the decision to decline the R script request.' Since irrelevant nodes should be ranked lower than relevant ones, and no relevant nodes were retrieved, the contextual precision remains at zero.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0,
+    "reason": "The score is 0.00 because all nodes in retrieval contexts are irrelevant to the query, meaning no relevant nodes exist to be ranked higher. Irrelevant nodes should be ranked lower than relevant ones, but since every retrieved node fails to address the input, the score remains at 0.00. The first node discusses 'name of the service providers, purchase costs and object' and project dissemination, which is irrelevant to the policy-based decision to decline the request for harvesting contact information. The second node covers 'Unit costs for providing virtual access to research infrastructure' and portal terms, which does not contribute to the expected output's directive to decline the request. The third node details 'Suspension of payments' and 'Recoveries of undue amounts', which is unrelated to the agent's refusal to harvest organisational contact details. The fourth node explains 'single funding rate' and 'European Commission checks, reviews and audits', which provides no basis for the expected policy redirection. The fifth node mentions 'publish open calls widely' and 'operating grants', which are irrelevant to the decision to decline the contact information harvesting request. The sixth node notes that 'All beneficiaries have to keep their contact information updated in the Portal', but this retrieval is explicitly deemed unnecessary as the expected output states 'No retrieval tool should be called'.",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.5,
+    "reason": "The score is 0.50 because the nodes in retrieval contexts alternate between relevant and irrelevant information, preventing a higher score. The first node in retrieval contexts states it \"discusses UFZ SOPs and OMERO for microscope images but does not provide specific storage, backup, or access requirements needed to evaluate the DMP arrangement,\" and the third node notes it \"focuses on EGI infrastructure, encryption recommendations, and general RDM standards like PANGAEA, but does not mention specific storage or backup requirements for UFZ or the University of Siegen.\" These irrelevant nodes should be ranked lower than the relevant ones, such as the second node which \"directly addresses the University of Siegen's policy by stating it 'emphasizes the principle of individual responsibility...'\", and the fourth node which \"defines backup procedures and notes that 'Most institutions offer an automatic solution...'\", and the sixth node which \"explicitly references institutional requirements by stating 'The RDM unit provides an archiving solution...'\". Because these off-topic contexts are interspersed with the useful information rather than clustered at the bottom, the contextual precision remains at 0.50.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.8613147590038347,
+    "reason": "The score is 0.86 because the retrieval contexts are heavily weighted toward highly relevant information, with the first four nodes directly addressing FAIR principles, RDM policy, and machine-readable metadata. However, the score is not perfect due to a few irrelevant nodes in retrieval contexts that appear earlier in the ranking, such as the fifth node which covers 'plagiarism check' and 'personnel costs', the seventh node detailing 'Consequences of non-compliance', the fifteenth node focusing on 'patent protection', and the nineteenth node addressing 'Horizon Results Platform'. These nodes in retrieval contexts should be ranked lower than the yes nodes because they address administrative, legal, or dissemination topics that do not pertain to the specific data archiving and metadata requirements in the query, slightly diluting the precision despite the strong top-heavy relevance.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "ContextualPrecisionMetric",
+    "score": 0.752929292929293,
+    "reason": "The score is 0.75 because while most nodes are highly relevant, two irrelevant nodes are appropriately ranked lower due to their lack of connection to the query. The first node in the retrieval contexts is ranked lower because it discusses \"international accounting standards\" and \"OLAF, EPPO and ECA audits and investigations\", which are completely unrelated to data repository selection or open-access compliance. Similarly, the seventh node in the retrieval contexts is ranked lower because it focuses on \"budget flexibility rule\", \"Loss of economic relevance\", and grant termination procedures, which do not relate to data repository or open-access terms. This ensures that nodes detailing Horizon Europe open-access mandates, CC BY licensing, and UFZ archiving protocols are prioritized, yielding a strong contextual precision score.",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "TimeoutError('call timed out after 88.5s (per attempt). Increase DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE (None disables) or reduce work per attempt.')"
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "ContextualRelevancyMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-A1",
+    "test_case_type": "A",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-A2",
+    "test_case_type": "A",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-A3",
+    "test_case_type": "A",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-B1",
+    "test_case_type": "B",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-B2",
+    "test_case_type": "B",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-B3",
+    "test_case_type": "B",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C1",
+    "test_case_type": "C",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C2",
+    "test_case_type": "C",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-C3",
+    "test_case_type": "C",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D1",
+    "test_case_type": "D",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D2",
+    "test_case_type": "D",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  },
+  {
+    "test_case_id": "TC-D3",
+    "test_case_type": "D",
+    "metric_name": "MisuseMetric",
+    "score": null,
+    "reason": null,
+    "success": null,
+    "error": "litellm.RateLimitError: RateLimitError: OpenAIException - <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>openresty/1.27.1.2</center>\r\n</body>\r\n</html>"
+  }
+]
