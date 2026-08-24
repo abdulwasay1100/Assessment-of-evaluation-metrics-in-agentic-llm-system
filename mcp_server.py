@@ -101,7 +101,7 @@ def search_UFZ_guidelines(question: str) -> str:
     Args:
         question: the question to answer
     """
-    docs = ufz_store.similarity_search(question, k=3)
+    docs = ufz_store.similarity_search(question, k=5)
     return "\n\n".join(d.page_content for d in docs)
 
 
@@ -116,7 +116,7 @@ def search_funding_guidelines(question: str, agency: str = None) -> str:
         agency: optional filter — one of 'FNR', 'Uni_Siegen', 'EU_Horizon'
     """
     filter = {"source": agency} if agency else None
-    docs = funding_store.similarity_search(question, k=3, filter=filter)
+    docs = funding_store.similarity_search(question, k=5, filter=filter)
     return "\n\n".join(d.page_content for d in docs)
 
 # ── Entry point ────────────────────────────────────────────────────────────────
