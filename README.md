@@ -46,9 +46,8 @@ The MCP server exposes the following tools to the agent:
 
 | Tool | Description |
 |------|-------------|
-| `ask_rdm` | Semantic search over the UFZ RDM guidelines via a Chroma vector database |
-| `search_rdm` | Lists all indexed documentation files |
-| `calculator` | Evaluate a basic math expression.(server testing tool) |
+| `search_ufz_guidelines` | Research data mangement guidelines for UFZ |
+| `search_funding_guidelines` | funding guidlines from four funding institution |
 
 > The server must stay running in its own terminal while using the notebook.
 
@@ -56,6 +55,6 @@ The MCP server exposes the following tools to the agent:
 
 Open Jupyter notebook:
 
-Open `agent_evals.ipynb` and select the **langgraph-agent** kernel.
+Open `rq1_stability_analysis.ipynb` and select the **langgraph-agent** kernel.
 
 run the cells for evaluation.
